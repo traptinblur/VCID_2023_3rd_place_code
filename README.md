@@ -8,13 +8,13 @@ More details about the solution please refer to [Kaggle forums of VCID](https://
 
 One of:
 
-* Nvidia RTX 3090 with 24G RAM
-* Nvidia A100 with 40G RAM
+* Nvidia RTX 3090 with 24GB VRAM
+* Nvidia A100 with 40GB VRAM
 
 When TRAIN on big resolution you may need one of:
 
-* 4x Nvidia RTX 3090 with 24G RAM
-* 4x Nvidia A100 with 40G RAM
+* 4x Nvidia RTX 3090 with 24GB VRAM
+* 4x Nvidia A100 with 40GB VRAM
 
 ## Base Libraries
 
