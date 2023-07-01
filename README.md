@@ -107,7 +107,7 @@ sh seg_main_finetune.sh
 
 ## Inference
 
-Inference notebook can be found [here](https://www.kaggle.com/code/traptinblur/3rd-place-ensemble-576-8-384-6-224-8/notebook?scriptVersionId=135421024)
+Inference notebook can be found [here.](https://www.kaggle.com/code/traptinblur/3rd-place-ensemble-576-8-384-6-224-8/notebook?scriptVersionId=135421024)
 
 ## License
 
