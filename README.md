@@ -26,6 +26,8 @@ Environment configuration for reference can be found in [requirements.txt](https
 
 ## Data
 
+Dataset of VCID2023 can be found [here](https://www.kaggle.com/competitions/vesuvius-challenge-ink-detection/data).
+
 The input data is required to have the following structure:
 
 ```
