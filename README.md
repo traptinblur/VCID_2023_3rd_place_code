@@ -2,7 +2,7 @@
 
 This repository contains Vesuvius Challenge - Ink Detection 3rd place solution training code.
 
-More details about the solution please refer to [Kaggle forums of VCID](https://www.kaggle.com/competitions/vesuvius-challenge-ink-detection/discussion/417536)
+More details about the solution please refer to [Kaggle forums of VCID](https://www.kaggle.com/competitions/vesuvius-challenge-ink-detection/discussion/417536).
 
 ## Hardware Requirements
 
@@ -45,7 +45,7 @@ dataset
 
 The above 👆 structure is  directly decompressed from the kaggle official dataset.
 
-Please run **fragment2_split.ipynb** before training. It will rename folder 2 to folder 6 then splitting fragment 2 to 3 parts.
+Please run [fragment2_split.ipynb](https://github.com/traptinblur/VCID_2023_3rd_place_code/blob/main/fragment2_split.ipynb) before training. It will rename folder 2 to folder 6 then splitting fragment 2 to 3 parts.
 
 After splitting, the file format is as follows：
 
@@ -107,7 +107,7 @@ sh seg_main_finetune.sh
 
 ## Inference
 
-Inference notebook can be found [here.](https://www.kaggle.com/code/traptinblur/3rd-place-ensemble-576-8-384-6-224-8/notebook?scriptVersionId=135421024)
+Inference notebook can be found [here](https://www.kaggle.com/code/traptinblur/3rd-place-ensemble-576-8-384-6-224-8/notebook?scriptVersionId=135421024).
 
 ## License
 
