@@ -32,7 +32,7 @@ The input data is required to have the following structure:
 
 ```
 dataset
-  └──train
+  ├──train
   └── fragmentid
         ├── subvolume
         │     ├── 00.tif
@@ -53,7 +53,7 @@ After splitting, the file format is as follows：
 
 ```
 dataset
-  └──train
+  ├──train
   ├── 1
   │   ├── subvolume
   │   │     ├── 00.tif
