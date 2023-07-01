@@ -35,9 +35,9 @@ dataset
   └──train
   └── fragmentid
         ├── subvolume
+        │     ├── 0.tif
         │     ├── 1.tif
         │     ├── 2.tif
-        │     ├── 3.tif
         │     ├── ・・・
         │     └── 64.tif
         ├── mask.png
@@ -56,9 +56,9 @@ dataset
   └──train
   ├── 1
   │   ├── subvolume
+  │   │     ├── 0.tif
   │   │     ├── 1.tif
   │   │     ├── 2.tif
-  │   │     ├── 3.tif
   │   │     ├── ・・・
   │   │     └── 64.tif
   │   ├── mask.png
