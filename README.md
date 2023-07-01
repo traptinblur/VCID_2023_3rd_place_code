@@ -22,7 +22,7 @@ When TRAIN on big resolution you may need one of:
 - [segmentation_models pytorch](https://github.com/qubvel/segmentation_models.pytorch)
 - [mmaction2](https://github.com/open-mmlab/mmaction2)
 
-Environment configuration for reference can be found in [requirements.txt](https://github.com/traptinblur/VCID_2023_3rd_place_code/blob/main/requirements.txt) file.
+Environment configuration for reference can be found in the [requirements.txt](https://github.com/traptinblur/VCID_2023_3rd_place_code/blob/main/requirements.txt) file.
 
 ## Data
 
