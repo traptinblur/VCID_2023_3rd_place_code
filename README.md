@@ -91,7 +91,7 @@ Download the pretrained weights:
 sh download_pretrained_weights.sh
 ```
 
-Change training hyper-parameters listed in **seg_main_finetune.py** .
+Change training hyper-parameters listed in [seg_main_finetune.py](https://github.com/traptinblur/VCID_2023_3rd_place_code/blob/main/seg_main_finetune.py) .
 
 Run training pipeline:
 
