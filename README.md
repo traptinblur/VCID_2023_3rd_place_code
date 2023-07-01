@@ -34,15 +34,15 @@ The input data is required to have the following structure:
 dataset
   └──train
   └── fragmentid
-    ├── subvolume
-    │   ├── 1.tif
-    │   ├── 2.tif
-    │   ├── 3.tif
-    │   ├── ・・・
-    │   └── 64.tif
-    ├── mask.png
-    ├── ir.png
-    └── inklabels.png
+        ├── subvolume
+        │     ├── 1.tif
+        │     ├── 2.tif
+        │     ├── 3.tif
+        │     ├── ・・・
+        │     └── 64.tif
+        ├── mask.png
+        ├── ir.png
+        └── inklabels.png
 ```
 
 The above 👆 structure is  directly decompressed from the kaggle official dataset.
@@ -55,15 +55,15 @@ After splitting, the file format is as follows：
 dataset
   └──train
   ├── 1
-  │ ├── subvolume
-  │ │   ├── 1.tif
-  │ │   ├── 2.tif
-  │ │   ├── 3.tif
-  │ │   ├── ・・・
-  │ │   └── 64.tif
-  │ ├── mask.png
-  │ ├── ir.png
-  │ └── inklabels.png
+  │   ├── subvolume
+  │   │     ├── 1.tif
+  │   │     ├── 2.tif
+  │   │     ├── 3.tif
+  │   │     ├── ・・・
+  │   │     └── 64.tif
+  │   ├── mask.png
+  │   ├── ir.png
+  │   └── inklabels.png
   ├── 2
   ├── 3
   ├── 4
