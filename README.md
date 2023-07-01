@@ -33,7 +33,7 @@ The input data is required to have the following structure:
 ```
 dataset
   ├──train
-  └── fragmentid
+  └── fragment_id
         ├── subvolume
         │     ├── 00.tif
         │     ├── 01.tif
