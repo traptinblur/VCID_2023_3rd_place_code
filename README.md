@@ -47,7 +47,7 @@ dataset
 
 The above 👆 structure is  directly decompressed from the kaggle official dataset.
 
-**Please run [fragment2_split.ipynb](https://github.com/traptinblur/VCID_2023_3rd_place_code/blob/main/fragment2_split.ipynb) before training**. It will rename folder 2 to folder 6 then splitting fragment 2 to 3 parts.
+**Please run [fragment2_split.ipynb](https://github.com/traptinblur/VCID_2023_3rd_place_code/blob/main/fragment2_split.ipynb) before training** if you want to reproduce the solution result. It will rename folder 2 to folder 6 then splitting fragment 2 to 3 parts.
 
 After splitting, the file format is as follows：
 
