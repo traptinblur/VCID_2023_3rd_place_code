@@ -75,7 +75,7 @@ dataset
 
 If you want reproduce our final solution, the settings need specified hyper-parameters provided in sheet below:
 
-| model  name        | bce/dice | misc_config | slices/tr_slices | size/stride | bs   | epoch | lr_init_lr    | norm | mixup/switch2cutmix | ema    | fold1_score(cv/lb) | fold2_score(cv/lb) | fold3_score(cv/lb) | fold4_score(cv/lb) | fold5_score(cv/lb) |
+| model  name        | bce/dice | misc_config | slices/tr_slices | size/stride | bs   | epoch | lr/init_lr    | norm | mixup/switch2cutmix | ema    | fold1_score(cv/lb) | fold2_score(cv/lb) | fold3_score(cv/lb) | fold4_score(cv/lb) | fold5_score(cv/lb) |
 | ------------------ | -------- | ----------- | ---------------- | ----------- | ---- | ----- | ------------- | ---- | ------------------- | ------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ |
 | adaptive_silu      | 6/1      | no  cutout  | 28/24            | 224/112     | 16   | 30    | 1.5e-4/7.5e-6 | TRUE | 0.6/0.84            | 0.997  | 0.6404/0.71        |                    |                    |                    |                    |
 | adaptive_silu      | 1/0      | no  cutout  | 28/24            | 224/112     | 16   | 30    | 1.5e-4/1.5e-5 | TRUE | 0.6/0.84            | 0.9998 |                    | 0.7018/0.75        | 0.6979/0.68        |                    |                    |
