@@ -53,22 +53,22 @@ After splitting, the file format is as follows：
 
 ```
 dataset
-  ├──train
-  ├── 1
-  │   ├── subvolume
-  │   │     ├── 00.tif
-  │   │     ├── 01.tif
-  │   │     ├── 02.tif
-  │   │     ├── ・・・
-  │   │     └── 64.tif
-  │   ├── mask.png
-  │   ├── ir.png
-  │   └── inklabels.png
-  ├── 2
-  ├── 3
-  ├── 4
-  ├── 5
-  └── 6
+  └──train
+       ├── 1
+       │   ├── subvolume
+       │   │     ├── 00.tif
+       │   │     ├── 01.tif
+       │   │     ├── 02.tif
+       │   │     ├── ・・・
+       │   │     └── 64.tif
+       │   ├── mask.png
+       │   ├── ir.png
+       │   └── inklabels.png
+       ├── 2
+       ├── 3
+       ├── 4
+       ├── 5
+       └── 6
 ```
 
 ## 3rd Place Settings
