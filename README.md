@@ -33,16 +33,16 @@ The input data is required to have the following structure:
 ```
 dataset
   ├──train
-  └── fragment_id
-        ├── subvolume
-        │     ├── 00.tif
-        │     ├── 01.tif
-        │     ├── 02.tif
-        │     ├── ・・・
-        │     └── 64.tif
-        ├── mask.png
-        ├── ir.png
-        └── inklabels.png
+       └── fragment_id
+             ├── subvolume
+             │     ├── 00.tif
+             │     ├── 01.tif
+             │     ├── 02.tif
+             │     ├── ・・・
+             │     └── 64.tif
+             ├── mask.png
+             ├── ir.png
+             └── inklabels.png
 ```
 
 The above 👆 structure is  directly decompressed from the kaggle official dataset.
