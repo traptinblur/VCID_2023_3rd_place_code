@@ -164,7 +164,7 @@ def get_args_parser():
     parser.add_argument('--eval', action='store_true',
                         help='Perform evaluation only')
     parser.add_argument('--dist_eval', action='store_true', default=False,
-                        help='Enabling distributed evaluation (recommended during training for faster monitor')
+                        help='Enabling distributed evaluation')
 
     # distributed training parameters
     parser.add_argument('--world_size', default=1, type=int,
