@@ -75,15 +75,15 @@ dataset
 
 If you want reproduce our final solution, the settings need specified hyper-parameters provided in sheet below:
 
-| model  name        | bce/dice | misc_config | slices/tr_slices | size/stride | bs   | epoch | lr/init_lr    | norm | mixup/switch2cutmix | ema    | fold1_score(cv/lb) | fold2_score(cv/lb) | fold3_score(cv/lb) | fold4_score(cv/lb) | fold5_score(cv/lb) |
-| ------------------ | -------- | ----------- | ---------------- | ----------- | ---- | ----- | ------------- | ---- | ------------------- | ------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ |
-| adaptive_silu      | 6/1      | no  cutout  | 28/24            | 224/112     | 16   | 30    | 1.5e-4/7.5e-6 | TRUE | 0.6/0.84            | 0.997  | 0.6404/0.71        |                    |                    |                    |                    |
-| adaptive_silu      | 1/0      | no  cutout  | 28/24            | 224/112     | 16   | 30    | 1.5e-4/1.5e-5 | TRUE | 0.6/0.84            | 0.9998 |                    | 0.7018/0.75        | 0.6979/0.68        |                    |                    |
-| adaptive_silu      | 1/0      |             | 28/24            | 224/112     | 16   | 30    | 1.5e-4/1.5e-5 | TRUE | 0.1/0.              | 0.997  |                    |                    |                    | 0.7418/0.72        |                    |
-| adaptive_silu      | 6/1      | no  cutout  | 28/24            | 224/112     | 16   | 30    | 1.5e-4/1.5e-5 | TRUE | 0.6/0.84            | 0.9998 |                    |                    |                    |                    | 0.7440/0.71        |
-| adaptive_silu      | 1/0      | no  cutout  | 28/24            | 384/128     | 16   | 30    | 1.5e-4/1.5e-5 | TRUE | 0.6/0.84            | 0.997  | 0.6177             | 0.711              | 0.7036             | 0.7212             | 0.7321             |
-| adaptive_silu_r152 | 1/0      | no  cutout  | 28/24            | 576/144     | 16   | 20    | 1.5e-4/1.5e-5 | TRUE | 0.6/0.84            | 0.999  |                    | 0.7279             | 0.6907             |                    | 0.7714             |
-| adaptive_silu_r152 | 3/1      |             | 28/24            | 576/144     | 16   | 20    | 1.5e-4/1.5e-5 | TRUE | 0.4/0.5             | 0.9994 | 0.6511             |                    |                    | 0.767              |                    |
+|    model  name     | bce/dice | misc_config | slices/tr_slices | size/stride |  bs  | epoch |  lr/init_lr   | norm | mixup/switch2cutmix |  ema   | fold1_score(cv/lb) | fold2_score(cv/lb) | fold3_score(cv/lb) | fold4_score(cv/lb) | fold5_score(cv/lb) |
+| :----------------: | :------: | :---------: | ---------------- | ----------- | :--: | :---: | :-----------: | :--: | :-----------------: | :----: | :----------------: | :----------------: | :----------------: | :----------------: | :----------------: |
+|   adaptive_silu    |   6/1    | no  cutout  | 28/24            | 224/112     |  16  |  30   | 1.5e-4/7.5e-6 | TRUE |      0.6/0.84       | 0.997  |    0.6404/0.71     |                    |                    |                    |                    |
+|   adaptive_silu    |   1/0    | no  cutout  | 28/24            | 224/112     |  16  |  30   | 1.5e-4/1.5e-5 | TRUE |      0.6/0.84       | 0.9998 |                    |    0.7018/0.75     |    0.6979/0.68     |                    |                    |
+|   adaptive_silu    |   1/0    |             | 28/24            | 224/112     |  16  |  30   | 1.5e-4/1.5e-5 | TRUE |       0.1/0.        | 0.997  |                    |                    |                    |    0.7418/0.72     |                    |
+|   adaptive_silu    |   6/1    | no  cutout  | 28/24            | 224/112     |  16  |  30   | 1.5e-4/1.5e-5 | TRUE |      0.6/0.84       | 0.9998 |                    |                    |                    |                    |    0.7440/0.71     |
+|   adaptive_silu    |   1/0    | no  cutout  | 28/24            | 384/128     |  16  |  30   | 1.5e-4/1.5e-5 | TRUE |      0.6/0.84       | 0.997  |       0.6177       |       0.711        |       0.7036       |       0.7212       |       0.7321       |
+| adaptive_silu_r152 |   1/0    | no  cutout  | 28/24            | 576/144     |  16  |  20   | 1.5e-4/1.5e-5 | TRUE |      0.6/0.84       | 0.999  |                    |       0.7279       |       0.6907       |                    |       0.7714       |
+| adaptive_silu_r152 |   3/1    |             | 28/24            | 576/144     |  16  |  20   | 1.5e-4/1.5e-5 | TRUE |       0.4/0.5       | 0.9994 |       0.6511       |                    |                    |       0.767        |                    |
 
 
 ## Training
