@@ -110,7 +110,14 @@ sh seg_main_finetune.sh
 
 ## Inference
 
-You can find the checkpoints and inference pipeline [here](https://www.kaggle.com/code/traptinblur/3rd-place-ensemble-576-8-384-6-224-8#model).
+You can find the final solution checkpoints and inference pipeline [here](https://www.kaggle.com/code/traptinblur/3rd-place-ensemble-576-8-384-6-224-8#model).
+
+If you want to test the weights you trained, you just need to:
+
+* copy&edit the notebook
+* upload your own weights for models with input sizes of 224, 384, 576 and 640
+* change the path value in the `ckpts` dictionary defined in `CFG` class for each model
+* save and submit
 
 ## License
 
