@@ -96,13 +96,13 @@ sh download_pretrained_weights.sh
 
 Change training hyper-parameters listed in [seg_main_finetune.py](https://github.com/traptinblur/VCID_2023_3rd_place_code/blob/main/seg_main_finetune.py) .
 
-Run training pipeline:
+Run the training pipeline:
 
 ```shell
 python seg_main_finetune.py
 ```
 
-Run DDP training pipeline:
+Run the DDP training pipeline:
 
 ```shell
 sh seg_main_finetune.sh
@@ -110,7 +110,7 @@ sh seg_main_finetune.sh
 
 ## Inference
 
-Inference notebook can be found [here](https://www.kaggle.com/code/traptinblur/3rd-place-ensemble-576-8-384-6-224-8#model).
+You can find the checkpoints and inference pipeline [here](https://www.kaggle.com/code/traptinblur/3rd-place-ensemble-576-8-384-6-224-8#model).
 
 ## License
 
