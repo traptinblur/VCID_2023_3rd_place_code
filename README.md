@@ -87,7 +87,7 @@ weight1.pth
 weight2.pth
 ```
 
-Change training hyper-parameters listed in the [base_config.py]() .
+Change training hyper-parameters listed in the [base_config.py]([VCID_2023_3rd_place_code/configs/base_config.py at main · traptinblur/VCID_2023_3rd_place_code · GitHub](https://github.com/traptinblur/VCID_2023_3rd_place_code/blob/main/configs/base_config.py)) .
 
 Run the training pipeline:
 
@@ -115,7 +115,7 @@ If you want reproduce our final solution, the settings need specified hyper-para
 | adaptive_silu_r152 |   1/0    | no  cutout  |      28/24       | 576/144     |  16  |  20   | 1.5e-4/1.5e-5 | TRUE |      0.6/0.84       | 0.999  |                    |       0.7279       |       0.6907       |                    |       0.7714       |
 | adaptive_silu_r152 |   3/1    |  no cutout  |      28/24       | 576/144     |  16  |  20   | 1.5e-4/1.5e-5 | TRUE |       0.4/0.5       | 0.9994 |       0.6511       |                    |                    |       0.7670       |                    |
 
-These settings are listed in the (config)[] folder.
+These settings are listed in the [configs](https://github.com/traptinblur/VCID_2023_3rd_place_code/tree/main/configs) folder.
 
 **For reproducing the solution, you only need to run the code below:**
 
@@ -125,12 +125,12 @@ sh reproduce.sh
 
 ## Inference
 
-You can find the final solution checkpoints and inference pipeline [here](https://www.kaggle.com/code/traptinblur/3rd-place-ensemble-576-8-384-6-224-8#model).
+You can find the final solution checkpoints and inference pipeline [here](https://www.kaggle.com/code/traptinblur/3rd-place-ensemble-576-8-384-6-224-8/notebook).
 
 If you want to test the weights you trained, you just need to:
 
 * copy&edit the notebook
-* upload your own weights for models with input sizes of 224, 384, 576 and 640
+* upload your own weights for models with input sizes of 224, 384 and 576
 * change the path value in the `ckpts` dictionary defined in `CFG` class for each model
 * save and submit
 
