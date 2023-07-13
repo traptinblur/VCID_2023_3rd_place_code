@@ -87,7 +87,7 @@ weight1.pth
 weight2.pth
 ```
 
-Change training hyper-parameters listed in the [base_config.py]([VCID_2023_3rd_place_code/configs/base_config.py at main · traptinblur/VCID_2023_3rd_place_code · GitHub](https://github.com/traptinblur/VCID_2023_3rd_place_code/blob/main/configs/base_config.py)) .
+Change training hyper-parameters listed in the [base_config.py](https://github.com/traptinblur/VCID_2023_3rd_place_code/blob/main/configs/base_config.py) .
 
 Run the training pipeline:
 
