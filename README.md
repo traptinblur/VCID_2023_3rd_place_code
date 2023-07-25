@@ -103,7 +103,7 @@ sh seg_main_finetune.sh
 
 ## 3rd Place Settings
 
-If you want reproduce our final solution, the settings need specified hyper-parameters provided in sheet below:
+If you want to reproduce our final solution, the settings need specified hyper-parameters provided in sheet below:
 
 |    model  name     | bce/dice | misc_config | slices/tr_slices | size/stride |  bs  | epoch |  lr/init_lr   | norm | mixup/switch2cutmix |  ema   | fold1_score(cv/lb) | fold2_score(cv/lb) | fold3_score(cv/lb) | fold4_score(cv/lb) | fold5_score(cv/lb) |
 | :----------------: | :------: | :---------: | :--------------: | ----------- | :--: | :---: | :-----------: | :--: | :-----------------: | :----: | :----------------: | :----------------: | :----------------: | :----------------: | :----------------: |
