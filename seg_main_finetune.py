@@ -241,7 +241,7 @@ def main(args):
                         'This will slightly alter validation results as extra duplicate entries are added to achieve '
                         'equal num of samples per-process.')
                 sampler_val = torch.utils.data.DistributedSampler(
-                    dataset_val, num_replicas=num_tasks, rank=global_rank, shuffle=True)  # shuffle=True to reduce monitor bias
+                    dataset_val, num_replicas=num_tasks, rank=global_rank, shuffle=True)
             else:
                 sampler_val = torch.utils.data.SequentialSampler(dataset_val)
         else:
